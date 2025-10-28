@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Genesis</title>
-</head>
-<body>
-    <div class="main-game">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gênesis - Genius</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gênesis</h1>
+      <div class="score">Pontuação: 0</div>
+      <div class="main-game">
         <div class="genius">
-            <div class="blue"></div>
-            <div class="yellow"></div>
-            <div class="red"></div>
-            <div class="green"></div>
+          <div class="green" data-color="0"></div>
+          <div class="red" data-color="1"></div>
+          <div class="yellow" data-color="2"></div>
+          <div class="blue" data-color="3"></div>
         </div>
+      </div>
+      <button class="restart">Reiniciar Jogo</button>
     </div>
-    <script type="text/javascript" src="script.js"></script>
-</body>
+
+    <script src="src/js/script.js"></script>
+  </body>
 </html>
